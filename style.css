@@ -1,0 +1,144 @@
+html{
+    /* margin: 0;     padding n margin should be set to zero for body
+    padding: 0; */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+nav{
+    background-color:sienna;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+li{
+    /* border-color:black; */
+    /* border: 2px solid black; */
+    padding: 0 2rem;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color:chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+  
+  a:hover {
+    color: white;
+  }  
+
+li.logo{
+    margin-right: auto;
+    margin-left: 2rem;
+    padding: 0 1rem;
+} 
+
+nav img{
+    margin-top: 0.15rem;
+    height: 3rem;
+}
+
+/* @media(max-width: 800px){
+    ul {
+        flex-wrap: wrap;
+      }
+      
+      li {
+        flex: 0 0 100%;
+        margin-left: 2rem;
+      }
+      
+      li.logo {
+        margin-right: 0;
+      }
+    
+} */
+
+.brand{
+  background-color: black;
+  height: 22rem;
+  padding-bottom: 9rem;
+}
+
+.products, .reviews{
+  background-color: #686273;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 32.6rem;
+  padding: 0;
+  margin: 0;
+
+}
+
+.prod{
+  height: 20rem;
+  border-radius: 3rem;
+  border: 0.5rem solid black;
+  width: 20rem;
+  margin: 4rem;  
+}
+
+.products img, .reviews img{
+  height: 20rem;
+  width: 20rem;
+  /* object-fit: fill; */
+  object-fit: cover;
+  /* position: absolute; */
+  border-radius: 2rem;
+}
+
+.reviews{
+  height: 43rem;
+}
+
+
+.products h5 , .reviews h5{
+  text-align: center;
+  font-size: 150%;
+  color:#005a00;
+  font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+#koro, #yami , #goto{
+  border-radius: 50%;
+  object-fit: fill;
+  width: 90%;
+  /* display: block; */
+  padding-left: 0.45rem;
+}
+
+.reviews h3{
+  font-size: 150%;
+}
+
+.prod h5:hover{
+  color: whitesmoke;
+}
+
+.footer{
+  height: 10rem;
+  color: plum;
+
+}
+
+.footer p{
+  font-size: 1rem;
+}
